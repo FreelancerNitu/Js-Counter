@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+body {
+  background: #0f0235;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.tracking-area{
+  width: 100%;
+  clear: both;
+  padding:45px;
+}
+.inner-tracking{
+  width: 98%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inner-tracking h2 {
+  color: red;
+  font-style: italic;
+  font-size: 2em;
+}
+.inner-tracking.main{
+  display: flex;
+}
+.child-tracking{
+  background: cyan;
+  width: 25%;
+  padding: 45px 30px;
+  margin: 0 1% 10px;
+  border-radius: 25px;
+}
+.child-tracking:nth-child(1){
+  background: rgb(20, 160, 55);
+}
+.child-tracking:nth-child(2){
+  background: rgb(209, 172, 8);
+}
+.child-tracking:nth-child(3){
+  background: rgb(194, 53, 207);
+}
+.child-tracking i{
+
+}
+.child-tracking h5 {
+  font-size: 15px;
+  color: #100606;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+.child-tracking p {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.child-tracking p span{
+  margin-right: 10px;
+  color: #fff;
+  font-size: 25px;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
